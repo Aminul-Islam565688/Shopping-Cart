@@ -16,7 +16,7 @@
       <div class="container">
          <div class="cart">
             <div class="col-md-12 col-lg-10 mx-auto">
-               <div class="cart-item">
+               <div id="Cart-Phone" class="cart-item">
                   <div class="row">
                      <div class="col-md-7 center-item">
                         <img src="images/product-1.png" alt="">
@@ -30,12 +30,12 @@
                            <button onclick="button('Phone',true)" id="Button-Plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
                         </div>
                         <h5>$ <span id="Phone-Price">1219</span></h5>
-                        <img src="images/remove.png" alt="" class="remove-item">
+                        <img onclick="displayNone('Phone')" src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
                </div>
 
-               <div class="cart-item">
+               <div id="Cart-Case" class="cart-item">
                   <div class="row">
                      <div class="col-md-7 center-item mx-auto">
                         <img src="images/product-2.png" alt="">
@@ -48,7 +48,7 @@
                            <button onclick="button('Case',true)" id="Case-Button-Plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
                         </div>
                         <h5>$ <span id="Case-Price">59</span></h5>
-                        <img src="images/remove.png" alt="" class="remove-item">
+                        <img onclick="displayNone('Case')" src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
                </div>

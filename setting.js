@@ -41,3 +41,13 @@ function dataType(product){
     let productNumber = parseInt(productPrice);
     return productNumber;
 }
+
+
+//
+function displayNone(product){
+    document.getElementById("Cart-"+product).style.display="none";
+    document.getElementById("Sub-Total").innerText=0;
+    document.getElementById("Tax").innerText=0;
+    document.getElementById("Total").innerText=0;
+
+}
