@@ -86,4 +86,4 @@ function dataType(product) {
 //             document.getElementById("Tax-Value").innerText = newTax;
         
 //     }
-// }
+// }//haha Nothing
